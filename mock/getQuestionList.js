@@ -21,4 +21,5 @@ function getQuestionList(opt) {
     }
     return qList
 }
+// export as module
 module.exports = getQuestionList

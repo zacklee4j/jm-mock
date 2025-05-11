@@ -3,6 +3,7 @@ const Random = Mock.Random
 module.exports = [
 
     {
+        // test api
         url: '/api/test',
         method: 'get',
         response() {

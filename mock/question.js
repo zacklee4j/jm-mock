@@ -2,7 +2,6 @@ const Mock = require('mockjs')
 const Random = Mock.Random
 const getQuestionList = require('./getQuestionList')
 module.exports = [
-
     {
         // get questioniare infomation
         url: '/api/question/:id',
