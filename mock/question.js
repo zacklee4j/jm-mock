@@ -3,7 +3,7 @@ const Random = Mock.Random
 const getQuestionList = require('./getQuestionList')
 module.exports = [
     {
-        // get questioniare infomation
+        // get questioniare info
         url: '/api/question/:id',
         method: 'get',
         response() {

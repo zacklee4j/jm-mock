@@ -2,7 +2,7 @@ const test = require('./test')
 const question = require('./question')
 const user = require('./user')
 
-// mock api list
+// mock api lists
 const mockList = [
     ...test,
     ...question,
