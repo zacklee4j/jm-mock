@@ -10,9 +10,9 @@ module.exports = [
                 errno: 0,
                 data: {
                     username: Random.name(),
-                    nickname: Random.cname()
+                    nickname: Random.cname()}
                 }
-            }
+            
         }
     },
     {
