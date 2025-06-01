@@ -10,8 +10,42 @@ module.exports = [
             return {
 
                 data: {
-                    _id: Random.id(),
-                    title: Random.title()
+                    _fe_id: Random.id(),
+                    title: Random.title(),
+                    componentsList: [
+                        // Title
+                        {
+                            fe_id: Random.id(),
+                            // type is unique and the same both in backend and frontend
+                            type: 'TitleComponent',
+                            title: 'title',
+                            props: {
+                                text: 'Individual Infomation',
+                                level: 1,
+                                isCenter: false
+                            }
+                        },
+                        // Input
+                        {
+                            fe_id: Random.id(),
+                            type: 'InputComponent',
+                            title: 'inputBox',
+                            props: {
+                                title: 'Your Name',
+                                placeHolder: 'input your name please!'
+                            }
+                        },
+                        // Input
+                        {
+                            fe_id: Random.id(),
+                            type: 'InputComponent',
+                            title: 'inputBox',
+                            props: {
+                                title: 'Your Email',
+                                placeHolder: 'input your Email please!'
+                            }
+                        }
+                    ]
                 },
 
             }
@@ -24,7 +58,7 @@ module.exports = [
             return {
                 errno: 0,
                 data: {
-                    _id: Random.id()
+                    _fe_id: Random.id()
                 }
             }
         }
@@ -66,7 +100,7 @@ module.exports = [
             return {
                 errno: 0,
                 data: {
-                    _id: Random.id()
+                    _fe_id: Random.id()
                 }
             }
         }
