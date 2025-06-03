@@ -19,6 +19,7 @@ module.exports = [
                             // type is unique and the same both in backend and frontend
                             type: 'TitleComponent',
                             title: 'title',
+                            isHidden:false,
                             props: {
                                 text: 'Individual Infomation',
                                 level: 1,
@@ -30,6 +31,7 @@ module.exports = [
                             fe_id: Random.id(),
                             type: 'InputComponent',
                             title: 'inputBox',
+                            isHidden:false,
                             props: {
                                 title: 'Your Name',
                                 placeHolder: 'input your name please!'
@@ -40,6 +42,7 @@ module.exports = [
                             fe_id: Random.id(),
                             type: 'InputComponent',
                             title: 'inputBox',
+                            isHidden:false,
                             props: {
                                 title: 'Your Email',
                                 placeHolder: 'input your Email please!'
